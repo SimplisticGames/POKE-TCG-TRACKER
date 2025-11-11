@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"><path fill="#2563eb" d="M64 0a64 64 0 1 0 0 128A64 64 0 0 0 64 0zm0 16a48 48 0 1 1 0 96 48 48 0 0 1 0-96z"/><circle fill="#fff" cx="64" cy="64" r="24"/></svg>
+
+// Add this with your other SVG icon components
+
+const ArrowLeft = ({ size = 24, className = "" }) => (
+    <svg className={className} width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+        <line x1="19" y1="12" x2="5" y2="12"></line>
+        <polyline points="12 19 5 12 12 5"></polyline>
+    </svg>
+);
